@@ -66,6 +66,7 @@ notesRoutes.put(
     }
   }
 );
+
 notesRoutes.delete(
   "/:noteId",
   async (req: Request, res: Response, next: NextFunction) => {
